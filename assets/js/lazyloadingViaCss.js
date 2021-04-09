@@ -1,5 +1,5 @@
 async function fetchBgUrlJSON() {
-  path = "./assets/js/data.json";
+  path = "https://jaykaku.github.io/Site-Optimaztion/assets/js/data.json";
 
   let res = await fetch(`${path}`);
   let data = await res.json();
