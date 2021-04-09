@@ -1,5 +1,6 @@
 function JSONGenerator() {
   const current = window.location.pathname;
+  console.log(current);
   let obj = {};
 
   // creating route url as a key given value obj
