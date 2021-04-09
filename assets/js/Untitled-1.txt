@@ -1,0 +1,48 @@
+{
+  urlIdentifier: {
+    className: {
+      classIdentifier: {
+        backgroundUrl: ""
+      }
+    },
+    idName: {
+      idIdentifier: {
+        backgroundUrl: ""
+      }
+    }
+  }
+}
+
+if(["urlIdentifier"][className]["classIdentifier"]){
+then replace the background url 
+}
+
+tag: x.selectorText,
+bg: x.style.backgroundImage,
+
+
+
+urlIdentifier: "/index.html",
+identifiers:[
+  
+]
+
+
+initialization 
+
+obj[className]={};
+obj[idName]={};
+
+
+
+if(key[0]==="#")
+{
+  obj[current][idName][key]={};
+  obj[current][idName][key][backgroundUrl]=x.style.backgroundImage;
+}
+else{
+  obj[current][className][key]={};
+  obj[current][className][key][backgroundUrl]=x.style.backgroundImage;
+}
+
+obj[current][key]
