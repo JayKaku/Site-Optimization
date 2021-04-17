@@ -21,7 +21,7 @@ function JSONGenerator() {
 
             key = x.selectorText.toString();
 
-            //checking for multiple tags and adding bg is ',' exists
+            //checking for multiple tags adding bg if ',' exists
             if (key.indexOf(",") === -1) {
               obj[current][key] = x.style.backgroundImage;
               //console.log(obj);
